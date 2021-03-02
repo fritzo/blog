@@ -12,7 +12,7 @@ On the safe end of the spectrum, users can only evaluate your code, and you can 
 In the middle of the spectrum, we could consider quoting modulo a weak notion of equality.
 For example, quoting modulo alpha-equivalence would safely permit you to rename-refactor your library.
 
-Let's define a quoting interface in the form of a _computational comonad_ <a href="#1">[1]</a>:
+Let's define a quoting interface in the form of a _computational comonad_ <a href="#1">[1]</a> (in [Coq](https://coq.inria.fr/) syntax):
 
 ```coq
 Quoted : type -> type.
